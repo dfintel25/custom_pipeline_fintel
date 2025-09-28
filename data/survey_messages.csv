@@ -1,0 +1,443 @@
+message,author,timestamp,category,sentiment,keyword_mentioned,message_length,department_ID,job_classification
+I just saw a story! It was amazing.,Alice,2025-09-24 21:35:04,other,0.8,other,35,D4_HR,Level 1
+I just loved JavaScript! It was amazing.,Bob,2025-09-24 21:35:09,tech,0.95,JavaScript,40,D1_Finance,associate
+I just shared a trick! It was boring.,Bob,2025-09-24 21:35:14,other,0.24,other,37,D6_Logistics,Hourly
+I just tried a movie! It was weird.,Bob,2025-09-24 21:35:19,entertainment,0.59,movie,35,D2_Mfg,associate
+I just found a story! It was funny.,Charlie,2025-09-24 21:35:24,other,0.94,other,35,D2_Mfg,Level 2
+I just loved recipe! It was funny.,Alice,2025-09-24 21:35:29,food,0.9,recipe,34,D5_Operations,Level 2
+I just tried JavaScript! It was exciting.,Bob,2025-09-24 21:35:34,tech,0.86,JavaScript,41,D5_Operations,Hourly
+I just loved a movie! It was exciting.,Alice,2025-09-24 21:35:39,entertainment,0.06,movie,38,D3_Legal,Level 1
+I just tried recipe! It was funny.,Eve,2025-09-24 21:35:44,food,0.55,recipe,34,D4_HR,Level 1
+I just tried travel! It was amazing.,Alice,2025-09-24 21:35:49,travel,0.86,travel,36,D4_HR,Level 2
+I just shared a trick! It was boring.,Eve,2025-09-24 21:35:55,other,0.37,other,37,D5_Operations,Level 1
+I just found Python! It was boring.,Charlie,2025-09-24 21:36:00,tech,0.71,Python,35,D6_Logistics,lead
+I just loved travel! It was weird.,Charlie,2025-09-24 21:36:05,travel,0.61,travel,34,D2_Mfg,lead
+I just saw recipe! It was boring.,Bob,2025-09-24 21:36:10,food,0.94,recipe,33,D6_Logistics,Level 2
+I just tried recipe! It was weird.,Eve,2025-09-24 21:36:15,food,0.93,recipe,34,D1_Finance,lead
+I just shared travel! It was weird.,Alice,2025-09-24 21:36:20,travel,0.23,travel,35,D2_Mfg,Level 1
+I just saw a meme! It was weird.,Alice,2025-09-24 21:36:25,humor,0.34,meme,32,D1_Finance,lead
+I just found a meme! It was boring.,Bob,2025-09-24 21:36:30,humor,0.7,meme,35,D1_Finance,Level 2
+I just tried a movie! It was boring.,Bob,2025-09-24 21:36:35,entertainment,0.35,movie,36,D5_Operations,Level 1
+I just found travel! It was boring.,Bob,2025-09-24 21:36:40,travel,0.08,travel,35,D1_Finance,Level 2
+I just tried JavaScript! It was exciting.,Eve,2025-09-24 21:36:45,tech,0.1,JavaScript,41,D5_Operations,senior
+I just saw a story! It was weird.,Alice,2025-09-24 21:36:50,other,0.15,other,33,D6_Logistics,Level 1
+I just found travel! It was weird.,Charlie,2025-09-24 21:36:55,travel,0.16,travel,34,D3_Legal,lead
+I just found Python! It was funny.,Eve,2025-09-24 21:37:00,tech,0.95,Python,34,D4_HR,senior
+I just shared travel! It was weird.,Alice,2025-09-24 21:37:05,travel,0.97,travel,35,D4_HR,Hourly
+I just found a trick! It was weird.,Charlie,2025-09-24 21:37:10,other,0.28,other,35,D4_HR,lead
+I just found a story! It was weird.,Alice,2025-09-24 21:37:15,other,0.52,other,35,D5_Operations,Hourly
+I just shared recipe! It was weird.,Bob,2025-09-24 21:37:20,food,0.55,recipe,35,D5_Operations,Level 1
+I just tried a meme! It was amazing.,Eve,2025-09-24 21:37:25,humor,0.67,meme,36,D3_Legal,associate
+I just saw travel! It was amazing.,Bob,2025-09-24 21:37:30,travel,0.43,travel,34,D6_Logistics,associate
+I just found a meme! It was exciting.,Alice,2025-09-24 21:37:35,humor,0.21,meme,37,D5_Operations,senior
+I just tried a trick! It was amazing.,Charlie,2025-09-24 21:37:40,other,0.44,other,37,D5_Operations,Level 1
+I just saw recipe! It was weird.,Charlie,2025-09-24 21:37:45,food,0.74,recipe,32,D3_Legal,Hourly
+I just tried travel! It was exciting.,Alice,2025-09-24 21:37:50,travel,0.82,travel,37,D4_HR,senior
+I just found recipe! It was exciting.,Charlie,2025-09-24 21:37:55,food,0.73,recipe,37,D4_HR,Level 1
+I just found Python! It was boring.,Alice,2025-09-24 21:38:00,tech,0.56,Python,35,D1_Finance,Level 1
+I just saw Python! It was amazing.,Alice,2025-09-24 21:38:06,tech,0.51,Python,34,D4_HR,lead
+I just shared game! It was boring.,Charlie,2025-09-24 21:38:11,gaming,0.89,game,34,D5_Operations,Level 2
+I just loved recipe! It was funny.,Bob,2025-09-24 21:38:16,food,0.93,recipe,34,D4_HR,senior
+I just shared a meme! It was weird.,Eve,2025-09-24 21:38:21,humor,0.83,meme,35,D2_Mfg,associate
+I just tried recipe! It was amazing.,Eve,2025-09-24 21:38:26,food,0.92,recipe,36,D6_Logistics,Hourly
+I just found a meme! It was amazing.,Alice,2025-09-24 21:38:31,humor,0.03,meme,36,D5_Operations,senior
+I just shared a trick! It was exciting.,Eve,2025-09-24 21:38:36,other,0.73,other,39,D4_HR,associate
+I just saw an app! It was amazing.,Alice,2025-09-24 21:38:41,other,0.38,other,34,D5_Operations,Level 2
+I just saw game! It was exciting.,Alice,2025-09-24 21:38:46,gaming,0.8,game,33,D3_Legal,Hourly
+I just found JavaScript! It was boring.,Eve,2025-09-24 21:38:51,tech,0.53,JavaScript,39,D2_Mfg,senior
+I just found a trick! It was amazing.,Alice,2025-09-24 21:38:56,other,0.33,other,37,D2_Mfg,Level 2
+I just saw a trick! It was boring.,Bob,2025-09-24 21:39:01,other,0.45,other,34,D4_HR,Hourly
+I just found a trick! It was exciting.,Alice,2025-09-24 21:39:06,other,0.87,other,38,D3_Legal,senior
+I just found an app! It was weird.,Bob,2025-09-24 21:39:11,other,0.62,other,34,D5_Operations,associate
+I just saw an app! It was exciting.,Charlie,2025-09-24 21:39:16,other,0.79,other,35,D3_Legal,Hourly
+I just loved a trick! It was amazing.,Alice,2025-09-24 21:39:21,other,0.11,other,37,D1_Finance,Hourly
+I just found an app! It was boring.,Charlie,2025-09-24 21:39:26,other,0.31,other,35,D2_Mfg,associate
+I just tried Python! It was exciting.,Charlie,2025-09-24 21:39:31,tech,0.96,Python,37,D4_HR,Hourly
+I just tried an app! It was funny.,Bob,2025-09-24 21:39:36,other,0.6,other,34,D3_Legal,lead
+I just found a story! It was funny.,Eve,2025-09-24 21:39:47,other,0.33,other,35,D2_Mfg,Level 1
+I just shared Python! It was funny.,Eve,2025-09-24 21:39:52,tech,0.99,Python,35,D3_Legal,lead
+I just tried a meme! It was boring.,Eve,2025-09-24 21:39:57,humor,0.54,meme,35,D1_Finance,Level 1
+I just saw a story! It was exciting.,Eve,2025-09-24 21:40:02,other,0.73,other,36,D6_Logistics,associate
+I just found Python! It was exciting.,Bob,2025-09-24 21:40:07,tech,0.65,Python,37,D4_HR,lead
+I just loved travel! It was boring.,Eve,2025-09-24 21:40:12,travel,0.36,travel,35,D6_Logistics,Hourly
+I just found recipe! It was weird.,Eve,2025-09-24 21:40:17,food,0.18,recipe,34,D3_Legal,associate
+I just found JavaScript! It was weird.,Charlie,2025-09-24 21:40:22,tech,0.34,JavaScript,38,D1_Finance,senior
+I just loved travel! It was boring.,Eve,2025-09-24 21:40:27,travel,0.38,travel,35,D3_Legal,senior
+I just saw Python! It was funny.,Bob,2025-09-24 21:40:32,tech,0.98,Python,32,D3_Legal,Hourly
+I just shared a movie! It was funny.,Bob,2025-09-24 21:40:37,entertainment,0.3,movie,36,D2_Mfg,associate
+I just found a movie! It was boring.,Alice,2025-09-24 21:40:43,entertainment,0.51,movie,36,D4_HR,Level 2
+I just loved a trick! It was boring.,Eve,2025-09-24 21:40:48,other,0.43,other,36,D3_Legal,associate
+I just loved JavaScript! It was weird.,Bob,2025-09-24 21:40:53,tech,0.58,JavaScript,38,D3_Legal,Level 2
+I just tried recipe! It was boring.,Eve,2025-09-24 21:40:58,food,0.15,recipe,35,D5_Operations,Level 1
+I just found a trick! It was boring.,Bob,2025-09-24 21:41:03,other,0.85,other,36,D4_HR,Level 2
+I just tried an app! It was funny.,Alice,2025-09-24 21:41:08,other,0.44,other,34,D3_Legal,lead
+I just tried a story! It was exciting.,Alice,2025-09-24 21:41:13,other,0.68,other,38,D1_Finance,lead
+I just saw a story! It was funny.,Charlie,2025-09-24 21:41:18,other,0.15,other,33,D6_Logistics,Level 1
+I just saw recipe! It was weird.,Charlie,2025-09-24 21:41:23,food,0.71,recipe,32,D4_HR,associate
+I just loved an app! It was funny.,Alice,2025-09-24 21:41:28,other,0.19,other,34,D4_HR,Level 2
+I just shared JavaScript! It was boring.,Charlie,2025-09-24 21:41:33,tech,0.04,JavaScript,40,D2_Mfg,Level 1
+I just saw a meme! It was funny.,Charlie,2025-09-24 21:41:38,humor,0.92,meme,32,D3_Legal,Level 1
+I just tried a meme! It was exciting.,Alice,2025-09-24 21:41:43,humor,0.01,meme,37,D3_Legal,associate
+I just tried recipe! It was boring.,Alice,2025-09-24 21:41:48,food,0.38,recipe,35,D5_Operations,Level 2
+I just shared a movie! It was boring.,Charlie,2025-09-24 21:41:53,entertainment,0.71,movie,37,D4_HR,associate
+I just tried a story! It was boring.,Eve,2025-09-24 21:41:58,other,0.12,other,36,D4_HR,senior
+I just shared travel! It was boring.,Bob,2025-09-24 21:42:03,travel,0.68,travel,36,D6_Logistics,Level 1
+I just saw Python! It was exciting.,Eve,2025-09-24 21:42:08,tech,0.96,Python,35,D3_Legal,lead
+I just loved a meme! It was weird.,Charlie,2025-09-24 21:42:34,humor,0.28,meme,34,D2_Mfg,Hourly
+I just shared an app! It was boring.,Charlie,2025-09-24 21:42:39,other,0.1,other,36,D5_Operations,lead
+I just shared JavaScript! It was boring.,Alice,2025-09-24 21:42:44,tech,0.19,JavaScript,40,D5_Operations,associate
+I just loved a meme! It was boring.,Alice,2025-09-24 21:42:49,humor,0.96,meme,35,D1_Finance,senior
+I just shared a meme! It was amazing.,Bob,2025-09-24 21:42:54,humor,0.46,meme,37,D4_HR,associate
+I just loved game! It was boring.,Alice,2025-09-24 21:42:59,gaming,0.28,game,33,D6_Logistics,associate
+I just shared an app! It was boring.,Alice,2025-09-24 21:43:04,other,1.0,other,36,D2_Mfg,Level 2
+I just found a meme! It was boring.,Bob,2025-09-24 21:43:09,humor,0.17,meme,35,D5_Operations,associate
+I just loved a movie! It was amazing.,Alice,2025-09-24 21:43:14,entertainment,0.45,movie,37,D6_Logistics,Level 1
+I just loved a story! It was weird.,Alice,2025-09-24 21:43:19,other,0.81,other,35,D3_Legal,associate
+I just tried a movie! It was amazing.,Bob,2025-09-24 21:43:24,entertainment,0.98,movie,37,D3_Legal,Level 2
+I just shared a trick! It was funny.,Charlie,2025-09-24 21:43:30,other,0.8,other,36,D4_HR,associate
+I just loved a story! It was funny.,Eve,2025-09-24 21:43:35,other,0.23,other,35,D6_Logistics,associate
+I just saw game! It was boring.,Bob,2025-09-24 21:43:40,gaming,0.86,game,31,D3_Legal,Level 2
+I just shared Python! It was weird.,Bob,2025-09-24 21:43:45,tech,0.81,Python,35,D4_HR,associate
+I just shared game! It was boring.,Charlie,2025-09-24 21:43:50,gaming,0.09,game,34,D6_Logistics,Hourly
+I just loved a trick! It was funny.,Bob,2025-09-24 21:43:55,other,0.4,other,35,D4_HR,Level 1
+I just shared a story! It was funny.,Eve,2025-09-24 21:44:00,other,0.15,other,36,D1_Finance,Level 2
+I just loved recipe! It was exciting.,Alice,2025-09-24 21:44:05,food,0.62,recipe,37,D1_Finance,Hourly
+I just saw a meme! It was funny.,Bob,2025-09-24 21:44:10,humor,0.27,meme,32,D5_Operations,senior
+I just found an app! It was boring.,Eve,2025-09-24 21:44:15,other,0.42,other,35,D3_Legal,lead
+I just found game! It was boring.,Bob,2025-09-24 21:44:20,gaming,0.69,game,33,D1_Finance,Hourly
+I just found JavaScript! It was amazing.,Eve,2025-09-24 21:44:25,tech,0.57,JavaScript,40,D2_Mfg,Hourly
+I just tried Python! It was weird.,Alice,2025-09-24 21:44:30,tech,0.99,Python,34,D4_HR,Level 1
+I just tried a trick! It was amazing.,Alice,2025-09-24 21:44:35,other,0.4,other,37,D2_Mfg,Level 1
+I just shared a story! It was amazing.,Eve,2025-09-24 21:44:40,other,0.38,other,38,D2_Mfg,Level 2
+I just loved Python! It was weird.,Eve,2025-09-24 21:44:45,tech,0.94,Python,34,D2_Mfg,Hourly
+I just found recipe! It was weird.,Eve,2025-09-24 21:44:50,food,0.3,recipe,34,D6_Logistics,Level 1
+I just found a meme! It was boring.,Alice,2025-09-24 21:44:55,humor,0.53,meme,35,D1_Finance,Level 2
+I just loved a story! It was amazing.,Eve,2025-09-24 21:45:00,other,0.85,other,37,D2_Mfg,Level 1
+I just shared a trick! It was funny.,Eve,2025-09-24 21:45:05,other,0.91,other,36,D2_Mfg,lead
+I just tried a story! It was amazing.,Charlie,2025-09-24 21:45:10,other,0.02,other,37,D2_Mfg,Hourly
+I just saw JavaScript! It was amazing.,Charlie,2025-09-24 21:45:15,tech,0.0,JavaScript,38,D4_HR,Hourly
+I just loved an app! It was exciting.,Alice,2025-09-24 21:45:20,other,0.19,other,37,D3_Legal,Level 2
+I just shared travel! It was exciting.,Charlie,2025-09-24 21:45:25,travel,0.64,travel,38,D2_Mfg,senior
+I just shared Python! It was boring.,Alice,2025-09-24 21:45:30,tech,0.47,Python,36,D6_Logistics,lead
+I just loved game! It was amazing.,Charlie,2025-09-24 21:45:35,gaming,0.24,game,34,D3_Legal,associate
+I just tried recipe! It was boring.,Alice,2025-09-24 21:45:40,food,0.07,recipe,35,D2_Mfg,Level 2
+I just found recipe! It was exciting.,Eve,2025-09-24 21:45:45,food,0.86,recipe,37,D4_HR,lead
+I just found JavaScript! It was exciting.,Bob,2025-09-24 21:45:51,tech,0.51,JavaScript,41,D3_Legal,lead
+I just loved an app! It was exciting.,Charlie,2025-09-24 21:45:56,other,0.64,other,37,D5_Operations,Hourly
+I just tried a trick! It was amazing.,Alice,2025-09-24 21:46:01,other,0.49,other,37,D1_Finance,Level 2
+I just saw an app! It was exciting.,Alice,2025-09-24 21:46:06,other,0.42,other,35,D2_Mfg,Level 1
+I just saw Python! It was amazing.,Alice,2025-09-24 21:46:11,tech,0.42,Python,34,D1_Finance,Level 1
+I just loved a trick! It was exciting.,Eve,2025-09-24 21:46:16,other,0.22,other,38,D6_Logistics,Level 2
+I just tried a movie! It was funny.,Alice,2025-09-24 21:46:21,entertainment,0.87,movie,35,D2_Mfg,senior
+I just loved a trick! It was funny.,Bob,2025-09-24 21:46:26,other,0.57,other,35,D3_Legal,Hourly
+I just shared a trick! It was exciting.,Charlie,2025-09-24 21:46:31,other,0.15,other,39,D3_Legal,Hourly
+I just shared a trick! It was exciting.,Bob,2025-09-24 21:46:36,other,0.66,other,39,D6_Logistics,senior
+I just shared travel! It was weird.,Alice,2025-09-24 21:46:41,travel,0.42,travel,35,D4_HR,lead
+I just loved travel! It was weird.,Eve,2025-09-24 21:46:46,travel,0.33,travel,34,D5_Operations,Level 2
+I just saw recipe! It was exciting.,Eve,2025-09-24 21:46:51,food,0.31,recipe,35,D6_Logistics,Level 1
+I just tried JavaScript! It was funny.,Eve,2025-09-24 21:46:56,tech,0.07,JavaScript,38,D5_Operations,senior
+I just tried a movie! It was weird.,Bob,2025-09-24 21:47:01,entertainment,0.05,movie,35,D2_Mfg,Level 1
+I just loved a meme! It was amazing.,Bob,2025-09-24 21:47:06,humor,0.41,meme,36,D2_Mfg,Level 1
+I just saw recipe! It was exciting.,Bob,2025-09-24 21:47:11,food,0.87,recipe,35,D1_Finance,associate
+I just loved an app! It was exciting.,Eve,2025-09-24 21:47:16,other,0.79,other,37,D4_HR,senior
+I just shared recipe! It was amazing.,Eve,2025-09-24 21:47:21,food,0.23,recipe,37,D4_HR,Hourly
+I just saw Python! It was weird.,Charlie,2025-09-24 21:47:26,tech,0.72,Python,32,D3_Legal,Level 2
+I just found a trick! It was funny.,Bob,2025-09-24 21:47:31,other,0.22,other,35,D3_Legal,Hourly
+I just loved an app! It was funny.,Eve,2025-09-24 21:47:36,other,0.71,other,34,D6_Logistics,lead
+I just loved a meme! It was weird.,Alice,2025-09-24 21:47:41,humor,0.57,meme,34,D2_Mfg,Level 2
+I just loved Python! It was funny.,Charlie,2025-09-24 21:47:46,tech,0.55,Python,34,D1_Finance,associate
+I just shared recipe! It was amazing.,Eve,2025-09-24 21:47:51,food,0.52,recipe,37,D4_HR,Level 1
+I just tried JavaScript! It was exciting.,Eve,2025-09-24 21:47:57,tech,0.39,JavaScript,41,D3_Legal,associate
+I just shared a meme! It was boring.,Bob,2025-09-24 21:48:02,humor,0.21,meme,36,D1_Finance,Hourly
+I just loved recipe! It was boring.,Eve,2025-09-24 21:48:07,food,0.69,recipe,35,D6_Logistics,Level 1
+I just loved JavaScript! It was boring.,Bob,2025-09-24 21:48:12,tech,0.5,JavaScript,39,D5_Operations,Level 2
+I just shared a movie! It was boring.,Bob,2025-09-24 21:48:29,entertainment,0.48,movie,37,D6_Logistics,Level 1
+I just shared travel! It was funny.,Alice,2025-09-24 21:48:34,travel,0.03,travel,35,D2_Mfg,senior
+I just saw travel! It was funny.,Eve,2025-09-24 21:48:39,travel,0.51,travel,32,D3_Legal,Level 2
+I just found game! It was exciting.,Bob,2025-09-24 21:48:44,gaming,0.84,game,35,D5_Operations,Level 1
+I just loved a movie! It was funny.,Charlie,2025-09-24 21:48:49,entertainment,0.96,movie,35,D2_Mfg,Level 2
+I just shared a meme! It was boring.,Alice,2025-09-24 21:48:54,humor,0.02,meme,36,D3_Legal,lead
+I just shared game! It was boring.,Alice,2025-09-24 21:48:59,gaming,0.75,game,34,D2_Mfg,associate
+I just shared recipe! It was funny.,Eve,2025-09-24 21:49:04,food,0.73,recipe,35,D6_Logistics,Hourly
+I just loved Python! It was weird.,Bob,2025-09-24 21:49:09,tech,0.32,Python,34,D2_Mfg,Level 2
+I just shared game! It was weird.,Bob,2025-09-24 21:49:15,gaming,0.04,game,33,D4_HR,lead
+I just saw a trick! It was boring.,Eve,2025-09-24 21:49:20,other,0.12,other,34,D4_HR,lead
+I just tried JavaScript! It was funny.,Charlie,2025-09-24 21:49:35,tech,0.76,JavaScript,38,D5_Operations,lead
+I just tried game! It was exciting.,Charlie,2025-09-24 21:49:40,gaming,0.11,game,35,D4_HR,Level 2
+I just shared JavaScript! It was weird.,Eve,2025-09-24 21:49:45,tech,0.07,JavaScript,39,D1_Finance,lead
+I just loved Python! It was amazing.,Charlie,2025-09-24 21:49:50,tech,0.26,Python,36,D6_Logistics,Level 1
+I just found game! It was funny.,Alice,2025-09-24 21:49:55,gaming,0.72,game,32,D5_Operations,Level 1
+I just tried a story! It was funny.,Alice,2025-09-24 21:50:00,other,0.52,other,35,D5_Operations,senior
+I just saw a movie! It was amazing.,Charlie,2025-09-24 21:50:05,entertainment,0.57,movie,35,D2_Mfg,lead
+I just tried Python! It was boring.,Alice,2025-09-24 21:50:10,tech,0.95,Python,35,D6_Logistics,lead
+I just saw a story! It was funny.,Alice,2025-09-24 21:50:15,other,0.91,other,33,D4_HR,Level 1
+I just tried JavaScript! It was boring.,Bob,2025-09-24 21:50:21,tech,0.33,JavaScript,39,D6_Logistics,lead
+I just tried travel! It was boring.,Eve,2025-09-24 21:50:26,travel,0.71,travel,35,D2_Mfg,Level 2
+I just saw Python! It was exciting.,Bob,2025-09-24 21:50:31,tech,0.77,Python,35,D4_HR,lead
+I just saw recipe! It was weird.,Bob,2025-09-24 21:50:36,food,0.73,recipe,32,D6_Logistics,Level 1
+I just tried an app! It was boring.,Eve,2025-09-24 21:50:41,other,0.19,other,35,D5_Operations,lead
+I just found travel! It was amazing.,Charlie,2025-09-24 21:50:46,travel,0.9,travel,36,D2_Mfg,Level 2
+I just tried Python! It was weird.,Eve,2025-09-24 21:50:51,tech,0.0,Python,34,D3_Legal,Level 1
+I just found a trick! It was exciting.,Alice,2025-09-24 21:50:56,other,0.18,other,38,D3_Legal,Hourly
+I just found travel! It was exciting.,Alice,2025-09-24 21:51:01,travel,0.74,travel,37,D2_Mfg,associate
+I just found a meme! It was amazing.,Alice,2025-09-24 21:51:06,humor,0.9,meme,36,D5_Operations,Hourly
+I just tried a movie! It was funny.,Alice,2025-09-24 21:51:11,entertainment,0.89,movie,35,D4_HR,associate
+I just found a trick! It was exciting.,Charlie,2025-09-24 21:51:16,other,0.07,other,38,D5_Operations,senior
+I just found a trick! It was exciting.,Alice,2025-09-24 21:51:21,other,0.93,other,38,D5_Operations,Level 1
+I just shared Python! It was boring.,Bob,2025-09-24 21:51:26,tech,0.7,Python,36,D3_Legal,lead
+I just loved a movie! It was boring.,Charlie,2025-09-24 21:51:31,entertainment,0.58,movie,36,D3_Legal,Hourly
+I just loved JavaScript! It was boring.,Bob,2025-09-24 21:51:36,tech,0.65,JavaScript,39,D4_HR,Level 2
+I just loved JavaScript! It was boring.,Charlie,2025-09-24 21:51:41,tech,0.37,JavaScript,39,D3_Legal,lead
+I just shared a trick! It was exciting.,Bob,2025-09-24 21:51:46,other,0.61,other,39,D4_HR,Level 2
+I just found Python! It was weird.,Bob,2025-09-24 21:51:51,tech,0.15,Python,34,D4_HR,Level 2
+I just tried a meme! It was funny.,Bob,2025-09-24 21:51:56,humor,0.09,meme,34,D6_Logistics,Hourly
+I just tried game! It was amazing.,Eve,2025-09-24 21:52:01,gaming,0.14,game,34,D5_Operations,associate
+I just found recipe! It was amazing.,Alice,2025-09-24 21:52:06,food,0.71,recipe,36,D5_Operations,Level 1
+I just found an app! It was funny.,Eve,2025-09-24 21:52:11,other,0.59,other,34,D3_Legal,senior
+I just shared game! It was exciting.,Bob,2025-09-24 21:52:16,gaming,0.34,game,36,D5_Operations,Level 1
+I just found recipe! It was funny.,Bob,2025-09-24 21:52:21,food,0.61,recipe,34,D1_Finance,Level 1
+I just saw game! It was exciting.,Eve,2025-09-24 21:52:26,gaming,0.4,game,33,D2_Mfg,associate
+I just shared a trick! It was amazing.,Bob,2025-09-24 21:52:32,other,0.18,other,38,D6_Logistics,senior
+I just tried game! It was funny.,Alice,2025-09-24 21:52:37,gaming,0.69,game,32,D1_Finance,senior
+I just tried recipe! It was funny.,Eve,2025-09-24 21:52:42,food,0.11,recipe,34,D3_Legal,Hourly
+I just saw game! It was boring.,Eve,2025-09-24 21:52:47,gaming,0.1,game,31,D3_Legal,Level 2
+I just tried game! It was amazing.,Bob,2025-09-24 21:52:52,gaming,0.21,game,34,D5_Operations,senior
+I just shared a trick! It was weird.,Bob,2025-09-24 21:52:57,other,0.76,other,36,D5_Operations,lead
+I just tried a meme! It was boring.,Charlie,2025-09-24 21:53:02,humor,0.42,meme,35,D3_Legal,senior
+I just shared Python! It was exciting.,Bob,2025-09-24 21:53:07,tech,0.02,Python,38,D3_Legal,Level 1
+I just shared a meme! It was funny.,Charlie,2025-09-24 21:53:12,humor,0.71,meme,35,D2_Mfg,lead
+I just loved a movie! It was funny.,Eve,2025-09-24 21:53:17,entertainment,0.82,movie,35,D3_Legal,Level 1
+I just tried Python! It was boring.,Bob,2025-09-24 21:53:22,tech,0.04,Python,35,D2_Mfg,Hourly
+I just shared a trick! It was weird.,Charlie,2025-09-24 21:54:34,other,0.07,other,36,D2_Mfg,Level 1
+I just shared recipe! It was exciting.,Bob,2025-09-24 21:54:39,food,0.24,recipe,38,D2_Mfg,senior
+I just saw recipe! It was exciting.,Bob,2025-09-24 21:54:44,food,0.55,recipe,35,D2_Mfg,lead
+I just saw game! It was boring.,Alice,2025-09-24 21:54:49,gaming,0.41,game,31,D4_HR,Level 2
+I just loved a story! It was weird.,Bob,2025-09-24 21:54:54,other,0.15,other,35,D2_Mfg,Hourly
+I just found a trick! It was weird.,Eve,2025-09-24 21:54:59,other,0.86,other,35,D1_Finance,Level 1
+I just tried recipe! It was boring.,Bob,2025-09-24 21:55:04,food,0.39,recipe,35,D5_Operations,Level 1
+I just found a movie! It was amazing.,Charlie,2025-09-24 21:55:09,entertainment,0.4,movie,37,D4_HR,Level 2
+I just shared a trick! It was weird.,Alice,2025-09-24 21:55:14,other,0.81,other,36,D4_HR,associate
+I just shared a meme! It was weird.,Alice,2025-09-24 21:55:19,humor,0.06,meme,35,D4_HR,Level 1
+I just shared a movie! It was funny.,Charlie,2025-09-24 21:55:24,entertainment,0.61,movie,36,D3_Legal,Level 2
+I just shared an app! It was weird.,Eve,2025-09-24 21:55:29,other,0.43,other,35,D4_HR,Hourly
+I just loved an app! It was boring.,Alice,2025-09-24 21:55:34,other,0.85,other,35,D6_Logistics,lead
+I just shared Python! It was amazing.,Bob,2025-09-24 21:55:39,tech,0.26,Python,37,D6_Logistics,Level 2
+I just tried game! It was weird.,Eve,2025-09-24 21:55:45,gaming,0.14,game,32,D1_Finance,Level 1
+I just saw travel! It was weird.,Bob,2025-09-24 21:55:50,travel,0.94,travel,32,D5_Operations,associate
+I just saw an app! It was exciting.,Eve,2025-09-24 21:55:55,other,0.89,other,35,D3_Legal,Hourly
+I just tried recipe! It was amazing.,Charlie,2025-09-24 21:56:00,food,0.44,recipe,36,D2_Mfg,Level 2
+I just loved a story! It was amazing.,Alice,2025-09-24 21:56:05,other,0.51,other,37,D6_Logistics,lead
+I just loved a story! It was amazing.,Bob,2025-09-24 21:56:10,other,0.27,other,37,D6_Logistics,associate
+I just saw recipe! It was exciting.,Charlie,2025-09-24 21:56:15,food,0.89,recipe,35,D5_Operations,Hourly
+I just found Python! It was funny.,Bob,2025-09-24 21:56:20,tech,0.33,Python,34,D2_Mfg,senior
+I just found a meme! It was exciting.,Bob,2025-09-24 21:56:25,humor,0.16,meme,37,D3_Legal,lead
+I just tried JavaScript! It was boring.,Eve,2025-09-24 21:56:30,tech,0.74,JavaScript,39,D5_Operations,lead
+I just shared a movie! It was weird.,Eve,2025-09-24 21:56:35,entertainment,0.59,movie,36,D4_HR,Level 2
+I just loved recipe! It was funny.,Charlie,2025-09-24 21:56:40,food,0.53,recipe,34,D6_Logistics,Level 1
+I just found recipe! It was amazing.,Alice,2025-09-24 21:56:45,food,0.56,recipe,36,D1_Finance,Hourly
+I just saw game! It was boring.,Charlie,2025-09-24 21:56:50,gaming,0.31,game,31,D6_Logistics,associate
+I just saw an app! It was weird.,Eve,2025-09-24 21:56:55,other,0.32,other,32,D4_HR,Level 2
+I just found travel! It was weird.,Alice,2025-09-24 21:57:00,travel,0.38,travel,34,D6_Logistics,Hourly
+I just found a trick! It was boring.,Alice,2025-09-24 21:57:05,other,0.38,other,36,D4_HR,Level 1
+I just shared recipe! It was amazing.,Charlie,2025-09-24 21:57:10,food,0.95,recipe,37,D6_Logistics,lead
+I just loved a meme! It was amazing.,Bob,2025-09-24 21:57:15,humor,0.26,meme,36,D6_Logistics,senior
+I just saw a meme! It was funny.,Eve,2025-09-24 21:57:20,humor,0.58,meme,32,D6_Logistics,senior
+I just saw game! It was boring.,Alice,2025-09-24 21:57:25,gaming,0.48,game,31,D2_Mfg,associate
+I just shared game! It was boring.,Charlie,2025-09-24 21:57:30,gaming,0.73,game,34,D3_Legal,Level 2
+I just loved travel! It was exciting.,Eve,2025-09-24 21:57:35,travel,0.78,travel,37,D4_HR,associate
+I just loved a story! It was funny.,Charlie,2025-09-24 21:57:41,other,0.16,other,35,D5_Operations,lead
+I just found a movie! It was funny.,Eve,2025-09-24 21:57:46,entertainment,0.68,movie,35,D2_Mfg,lead
+I just shared Python! It was weird.,Alice,2025-09-24 21:57:51,tech,0.84,Python,35,D5_Operations,Level 2
+I just tried an app! It was weird.,Eve,2025-09-24 21:57:56,other,0.25,other,34,D3_Legal,Hourly
+I just found a meme! It was weird.,Charlie,2025-09-24 21:58:01,humor,0.45,meme,34,D6_Logistics,Level 2
+I just saw travel! It was exciting.,Alice,2025-09-24 21:58:06,travel,0.6,travel,35,D3_Legal,associate
+I just shared a meme! It was weird.,Charlie,2025-09-24 21:58:11,humor,0.25,meme,35,D1_Finance,Level 1
+I just saw recipe! It was boring.,Bob,2025-09-24 21:58:16,food,0.3,recipe,33,D5_Operations,Hourly
+I just found a movie! It was amazing.,Charlie,2025-09-24 21:58:21,entertainment,0.67,movie,37,D3_Legal,associate
+I just saw a trick! It was boring.,Alice,2025-09-24 21:58:26,other,0.49,other,34,D3_Legal,associate
+I just saw a meme! It was funny.,Eve,2025-09-24 21:58:31,humor,0.97,meme,32,D1_Finance,Level 1
+I just shared a story! It was boring.,Alice,2025-09-24 21:58:36,other,0.12,other,37,D3_Legal,Hourly
+I just shared recipe! It was boring.,Eve,2025-09-24 21:58:41,food,0.05,recipe,36,D4_HR,lead
+I just tried a meme! It was weird.,Alice,2025-09-24 21:58:46,humor,0.19,meme,34,D2_Mfg,senior
+I just loved an app! It was boring.,Alice,2025-09-24 21:58:51,other,0.25,other,35,D2_Mfg,senior
+I just tried JavaScript! It was funny.,Charlie,2025-09-24 21:58:56,tech,0.7,JavaScript,38,D2_Mfg,Hourly
+I just found recipe! It was weird.,Eve,2025-09-24 21:59:01,food,0.31,recipe,34,D5_Operations,lead
+I just found a trick! It was funny.,Eve,2025-09-24 21:59:06,other,0.75,other,35,D3_Legal,Hourly
+I just shared travel! It was funny.,Alice,2025-09-24 21:59:11,travel,0.9,travel,35,D2_Mfg,lead
+I just saw a movie! It was exciting.,Charlie,2025-09-24 21:59:16,entertainment,0.0,movie,36,D1_Finance,associate
+I just loved a meme! It was amazing.,Bob,2025-09-24 21:59:21,humor,0.01,meme,36,D6_Logistics,Level 2
+I just tried an app! It was weird.,Bob,2025-09-24 21:59:26,other,0.55,other,34,D5_Operations,lead
+I just loved a movie! It was weird.,Charlie,2025-09-24 21:59:31,entertainment,0.17,movie,35,D4_HR,Level 1
+I just shared recipe! It was weird.,Alice,2025-09-24 21:59:37,food,0.39,recipe,35,D4_HR,Level 2
+I just loved an app! It was exciting.,Alice,2025-09-24 21:59:42,other,0.98,other,37,D3_Legal,Hourly
+I just shared recipe! It was exciting.,Eve,2025-09-24 21:59:47,food,0.8,recipe,38,D5_Operations,Level 1
+I just tried a meme! It was exciting.,Alice,2025-09-24 21:59:52,humor,0.86,meme,37,D6_Logistics,senior
+I just shared recipe! It was amazing.,Eve,2025-09-24 21:59:57,food,0.18,recipe,37,D1_Finance,lead
+I just tried a trick! It was boring.,Charlie,2025-09-24 22:00:02,other,0.45,other,36,D2_Mfg,Level 1
+I just found a story! It was weird.,Charlie,2025-09-24 22:00:07,other,0.03,other,35,D5_Operations,associate
+I just saw Python! It was amazing.,Charlie,2025-09-24 22:00:12,tech,0.5,Python,34,D5_Operations,lead
+I just found a trick! It was weird.,Bob,2025-09-24 22:00:17,other,0.33,other,35,D3_Legal,associate
+I just saw a movie! It was funny.,Bob,2025-09-24 22:00:22,entertainment,0.94,movie,33,D4_HR,lead
+I just found game! It was exciting.,Eve,2025-09-24 22:00:27,gaming,0.1,game,35,D5_Operations,Level 2
+I just tried Python! It was weird.,Eve,2025-09-24 22:00:32,tech,0.23,Python,34,D2_Mfg,senior
+I just loved Python! It was amazing.,Charlie,2025-09-24 22:00:37,tech,0.77,Python,36,D6_Logistics,associate
+I just found an app! It was amazing.,Alice,2025-09-24 22:00:42,other,0.98,other,36,D4_HR,lead
+I just saw an app! It was exciting.,Charlie,2025-09-24 22:00:47,other,0.62,other,35,D2_Mfg,associate
+I just tried JavaScript! It was boring.,Charlie,2025-09-24 22:00:52,tech,0.31,JavaScript,39,D2_Mfg,senior
+I just shared travel! It was weird.,Alice,2025-09-24 22:00:57,travel,0.52,travel,35,D5_Operations,Level 1
+I just loved a movie! It was weird.,Eve,2025-09-24 22:01:02,entertainment,0.3,movie,35,D2_Mfg,associate
+I just shared JavaScript! It was funny.,Alice,2025-09-24 22:01:07,tech,0.47,JavaScript,39,D6_Logistics,lead
+I just shared recipe! It was weird.,Alice,2025-09-24 22:01:12,food,0.75,recipe,35,D1_Finance,Level 1
+I just tried a story! It was funny.,Eve,2025-09-24 22:01:18,other,0.85,other,35,D4_HR,Hourly
+I just loved an app! It was exciting.,Alice,2025-09-24 22:01:23,other,0.47,other,37,D1_Finance,Level 1
+I just tried a movie! It was funny.,Charlie,2025-09-24 22:01:28,entertainment,1.0,movie,35,D6_Logistics,Hourly
+I just loved recipe! It was funny.,Charlie,2025-09-24 22:01:33,food,0.62,recipe,34,D2_Mfg,Hourly
+I just saw an app! It was exciting.,Alice,2025-09-24 22:01:38,other,0.01,other,35,D4_HR,Level 2
+I just found recipe! It was weird.,Bob,2025-09-24 22:01:43,food,0.64,recipe,34,D5_Operations,associate
+I just found a trick! It was amazing.,Charlie,2025-09-24 22:01:48,other,0.22,other,37,D5_Operations,Level 2
+I just tried travel! It was amazing.,Alice,2025-09-24 22:01:53,travel,0.16,travel,36,D2_Mfg,Hourly
+I just found Python! It was boring.,Charlie,2025-09-24 22:01:58,tech,0.79,Python,35,D6_Logistics,Hourly
+I just found a movie! It was weird.,Eve,2025-09-24 22:02:03,entertainment,0.53,movie,35,D6_Logistics,associate
+I just saw JavaScript! It was weird.,Charlie,2025-09-24 22:02:08,tech,0.28,JavaScript,36,D1_Finance,associate
+I just saw Python! It was boring.,Eve,2025-09-24 22:02:13,tech,0.44,Python,33,D3_Legal,Level 2
+I just saw travel! It was boring.,Alice,2025-09-24 22:02:18,travel,0.21,travel,33,D3_Legal,lead
+I just saw game! It was funny.,Alice,2025-09-24 22:02:23,gaming,0.63,game,30,D5_Operations,senior
+I just loved a story! It was boring.,Bob,2025-09-24 22:02:28,other,0.35,other,36,D3_Legal,Level 1
+I just saw a movie! It was funny.,Alice,2025-09-24 22:02:33,entertainment,0.12,movie,33,D2_Mfg,Level 2
+I just saw a meme! It was weird.,Alice,2025-09-24 22:02:38,humor,0.95,meme,32,D3_Legal,associate
+I just saw Python! It was funny.,Eve,2025-09-24 22:02:43,tech,0.54,Python,32,D1_Finance,Level 2
+I just found recipe! It was weird.,Alice,2025-09-24 22:02:48,food,0.13,recipe,34,D1_Finance,Level 1
+I just shared a meme! It was funny.,Bob,2025-09-24 22:02:53,humor,0.49,meme,35,D6_Logistics,lead
+I just found a meme! It was funny.,Charlie,2025-09-24 22:02:58,humor,0.82,meme,34,D2_Mfg,associate
+I just tried recipe! It was amazing.,Eve,2025-09-24 22:03:03,food,0.09,recipe,36,D4_HR,associate
+I just loved game! It was weird.,Charlie,2025-09-24 22:03:09,gaming,0.94,game,32,D4_HR,Level 2
+I just saw a trick! It was funny.,Alice,2025-09-24 22:03:14,other,0.51,other,33,D1_Finance,Level 2
+I just shared a story! It was boring.,Charlie,2025-09-24 22:03:19,other,0.99,other,37,D5_Operations,Level 1
+I just saw an app! It was funny.,Bob,2025-09-24 22:03:24,other,0.59,other,32,D6_Logistics,lead
+I just saw recipe! It was amazing.,Eve,2025-09-24 22:03:29,food,0.65,recipe,34,D2_Mfg,senior
+I just tried JavaScript! It was amazing.,Alice,2025-09-24 22:03:34,tech,0.27,JavaScript,40,D4_HR,lead
+I just tried a story! It was funny.,Bob,2025-09-24 22:03:39,other,0.83,other,35,D5_Operations,lead
+I just shared recipe! It was funny.,Eve,2025-09-24 22:03:44,food,0.71,recipe,35,D1_Finance,lead
+I just saw a trick! It was boring.,Alice,2025-09-24 22:03:49,other,1.0,other,34,D4_HR,Level 2
+I just saw a movie! It was weird.,Eve,2025-09-24 22:03:54,entertainment,0.64,movie,33,D4_HR,lead
+I just found travel! It was boring.,Charlie,2025-09-24 22:03:59,travel,0.68,travel,35,D2_Mfg,Hourly
+I just found JavaScript! It was funny.,Charlie,2025-09-24 22:04:04,tech,0.61,JavaScript,38,D2_Mfg,associate
+I just found recipe! It was amazing.,Bob,2025-09-24 22:04:09,food,0.44,recipe,36,D5_Operations,senior
+I just found a story! It was boring.,Bob,2025-09-24 22:04:14,other,0.59,other,36,D2_Mfg,associate
+I just found a movie! It was boring.,Charlie,2025-09-24 22:04:19,entertainment,0.66,movie,36,D2_Mfg,senior
+I just found an app! It was boring.,Bob,2025-09-24 22:04:24,other,0.87,other,35,D1_Finance,Hourly
+I just saw a trick! It was boring.,Charlie,2025-09-24 22:04:39,other,0.04,other,34,D6_Logistics,senior
+I just tried JavaScript! It was funny.,Eve,2025-09-24 22:04:44,tech,0.28,JavaScript,38,D2_Mfg,Level 2
+I just loved Python! It was weird.,Bob,2025-09-24 22:04:50,tech,0.17,Python,34,D3_Legal,Hourly
+I just saw JavaScript! It was funny.,Alice,2025-09-24 22:04:55,tech,0.4,JavaScript,36,D5_Operations,associate
+I just tried a story! It was boring.,Charlie,2025-09-24 22:05:00,other,0.84,other,36,D3_Legal,Level 1
+I just saw a meme! It was amazing.,Eve,2025-09-24 22:05:05,humor,0.57,meme,34,D4_HR,Hourly
+I just found an app! It was weird.,Bob,2025-09-24 22:05:10,other,0.14,other,34,D6_Logistics,lead
+I just saw an app! It was funny.,Eve,2025-09-24 22:05:15,other,0.32,other,32,D5_Operations,associate
+I just loved a meme! It was funny.,Alice,2025-09-24 22:05:20,humor,0.92,meme,34,D2_Mfg,Level 2
+I just tried travel! It was boring.,Eve,2025-09-24 22:05:25,travel,0.85,travel,35,D1_Finance,senior
+I just saw a trick! It was funny.,Bob,2025-09-24 22:05:30,other,0.29,other,33,D1_Finance,Level 1
+I just tried a meme! It was boring.,Charlie,2025-09-24 22:05:35,humor,0.64,meme,35,D2_Mfg,associate
+I just saw a movie! It was weird.,Bob,2025-09-24 22:05:40,entertainment,0.41,movie,33,D4_HR,associate
+I just loved an app! It was funny.,Charlie,2025-09-24 22:05:45,other,0.35,other,34,D1_Finance,associate
+I just saw Python! It was boring.,Bob,2025-09-24 22:05:50,tech,0.48,Python,33,D4_HR,associate
+I just found a trick! It was funny.,Eve,2025-09-24 22:05:55,other,0.98,other,35,D2_Mfg,senior
+I just loved Python! It was funny.,Alice,2025-09-24 22:06:00,tech,0.66,Python,34,D1_Finance,senior
+I just saw Python! It was exciting.,Alice,2025-09-24 22:06:05,tech,0.01,Python,35,D3_Legal,lead
+I just loved Python! It was funny.,Alice,2025-09-24 22:06:10,tech,0.2,Python,34,D4_HR,associate
+I just saw a meme! It was funny.,Eve,2025-09-24 22:06:15,humor,0.76,meme,32,D3_Legal,Hourly
+I just saw recipe! It was exciting.,Alice,2025-09-24 22:06:20,food,0.81,recipe,35,D4_HR,Level 1
+I just tried game! It was funny.,Alice,2025-09-24 22:06:25,gaming,0.48,game,32,D3_Legal,senior
+I just tried a story! It was exciting.,Eve,2025-09-24 22:06:30,other,0.74,other,38,D3_Legal,Level 2
+I just saw a story! It was amazing.,Charlie,2025-09-24 22:06:35,other,0.06,other,35,D3_Legal,lead
+I just found JavaScript! It was weird.,Alice,2025-09-24 22:06:40,tech,0.74,JavaScript,38,D3_Legal,senior
+I just saw game! It was weird.,Eve,2025-09-24 22:06:45,gaming,0.51,game,30,D1_Finance,senior
+I just loved a story! It was funny.,Charlie,2025-09-24 22:06:51,other,0.98,other,35,D6_Logistics,Level 2
+I just shared a movie! It was boring.,Alice,2025-09-24 22:06:56,entertainment,0.06,movie,37,D2_Mfg,Level 2
+I just found an app! It was funny.,Eve,2025-09-24 22:07:01,other,0.49,other,34,D4_HR,senior
+I just loved Python! It was exciting.,Eve,2025-09-24 22:07:06,tech,0.86,Python,37,D6_Logistics,Hourly
+I just saw game! It was boring.,Eve,2025-09-24 22:07:11,gaming,0.77,game,31,D4_HR,lead
+I just shared Python! It was exciting.,Alice,2025-09-24 22:07:16,tech,0.58,Python,38,D6_Logistics,associate
+I just found JavaScript! It was exciting.,Alice,2025-09-24 22:07:21,tech,0.65,JavaScript,41,D1_Finance,associate
+I just tried travel! It was exciting.,Bob,2025-09-24 22:07:26,travel,0.9,travel,37,D4_HR,Level 2
+I just tried JavaScript! It was amazing.,Bob,2025-09-24 22:07:31,tech,0.7,JavaScript,40,D6_Logistics,senior
+I just loved JavaScript! It was boring.,Alice,2025-09-24 22:07:36,tech,0.86,JavaScript,39,D4_HR,senior
+I just shared recipe! It was boring.,Eve,2025-09-24 22:07:41,food,0.98,recipe,36,D4_HR,senior
+I just loved JavaScript! It was exciting.,Bob,2025-09-24 22:07:46,tech,0.48,JavaScript,41,D6_Logistics,senior
+I just tried Python! It was exciting.,Eve,2025-09-24 22:07:51,tech,0.67,Python,37,D3_Legal,associate
+I just saw game! It was amazing.,Charlie,2025-09-24 22:07:56,gaming,0.59,game,32,D1_Finance,associate
+I just found a meme! It was exciting.,Eve,2025-09-24 22:08:01,humor,0.6,meme,37,D5_Operations,Level 1
+I just loved a trick! It was amazing.,Alice,2025-09-24 22:08:06,other,0.75,other,37,D2_Mfg,senior
+I just loved Python! It was funny.,Bob,2025-09-24 22:08:11,tech,0.37,Python,34,D5_Operations,Level 1
+I just loved game! It was funny.,Charlie,2025-09-24 22:08:16,gaming,0.89,game,32,D4_HR,senior
+I just loved a movie! It was exciting.,Eve,2025-09-24 22:08:21,entertainment,0.68,movie,38,D6_Logistics,Hourly
+I just tried a story! It was funny.,Bob,2025-09-24 22:08:26,other,0.82,other,35,D5_Operations,associate
+I just shared an app! It was boring.,Charlie,2025-09-24 22:08:31,other,0.72,other,36,D1_Finance,lead
+I just tried a movie! It was amazing.,Eve,2025-09-24 22:08:36,entertainment,0.81,movie,37,D1_Finance,senior
+I just saw a movie! It was funny.,Bob,2025-09-24 22:08:41,entertainment,0.6,movie,33,D4_HR,lead
+I just loved travel! It was funny.,Eve,2025-09-24 22:08:46,travel,0.83,travel,34,D2_Mfg,Level 1
+I just found recipe! It was boring.,Bob,2025-09-24 22:08:52,food,0.58,recipe,35,D2_Mfg,Hourly
+I just saw a movie! It was funny.,Eve,2025-09-24 22:57:36,entertainment,0.74,movie,33,D4_HR,lead
+I just loved travel! It was weird.,Bob,2025-09-25 02:40:10,travel,0.02,travel,34,D4_HR,lead
+I just saw a movie! It was weird.,Charlie,2025-09-25 02:40:15,entertainment,0.09,movie,33,D6_Logistics,lead
+I just saw travel! It was funny.,Charlie,2025-09-25 17:49:35,travel,0.92,travel,32,D2_Mfg,lead
+I just shared game! It was amazing.,Alice,2025-09-25 17:49:40,gaming,0.67,game,35,D3_Legal,associate
+I just found a story! It was weird.,Alice,2025-09-25 17:49:45,other,0.84,other,35,D6_Logistics,senior
+I just shared a meme! It was boring.,Eve,2025-09-25 17:49:50,humor,0.72,meme,36,D2_Mfg,Hourly
+I just tried recipe! It was boring.,Charlie,2025-09-25 17:49:55,food,0.89,recipe,35,D5_Operations,Level 2
+I just loved a movie! It was weird.,Charlie,2025-09-25 17:50:00,entertainment,0.17,movie,35,D5_Operations,Level 1
+I just loved game! It was weird.,Alice,2025-09-25 17:50:05,gaming,0.16,game,32,D3_Legal,senior
+I just found game! It was exciting.,Alice,2025-09-25 17:50:10,gaming,0.45,game,35,D4_HR,Hourly
+I just found a meme! It was boring.,Eve,2025-09-25 17:50:15,humor,0.48,meme,35,D1_Finance,lead
+I just found travel! It was amazing.,Charlie,2025-09-25 17:50:20,travel,0.06,travel,36,D6_Logistics,Level 2
+I just tried a story! It was amazing.,Charlie,2025-09-25 17:50:25,other,0.29,other,37,D5_Operations,Level 2
+I just found a story! It was boring.,Alice,2025-09-25 17:50:30,other,0.95,other,36,D5_Operations,associate
+I just tried game! It was amazing.,Alice,2025-09-25 17:50:35,gaming,0.09,game,34,D2_Mfg,lead
+I just found a movie! It was weird.,Bob,2025-09-25 17:50:41,entertainment,0.55,movie,35,D3_Legal,Level 2
+I just loved a meme! It was boring.,Eve,2025-09-25 17:50:46,humor,0.46,meme,35,D5_Operations,senior
+I just saw travel! It was amazing.,Alice,2025-09-25 17:50:51,travel,0.12,travel,34,D6_Logistics,Level 1
+I just tried a story! It was weird.,Alice,2025-09-25 17:50:56,other,0.27,other,35,D4_HR,associate
+I just found Python! It was weird.,Alice,2025-09-25 17:51:01,tech,0.74,Python,34,D6_Logistics,associate
+I just shared a meme! It was amazing.,Eve,2025-09-25 17:51:06,humor,0.06,meme,37,D4_HR,Level 1
+I just tried a meme! It was weird.,Eve,2025-09-25 17:51:11,humor,0.93,meme,34,D3_Legal,senior
+I just saw a movie! It was exciting.,Eve,2025-09-25 17:51:16,entertainment,0.72,movie,36,D1_Finance,lead
+I just found a movie! It was boring.,Charlie,2025-09-25 17:51:21,entertainment,0.84,movie,36,D6_Logistics,associate
+I just shared JavaScript! It was amazing.,Charlie,2025-09-25 17:51:26,tech,0.69,JavaScript,41,D1_Finance,lead
+I just tried an app! It was funny.,Charlie,2025-09-25 17:51:31,other,0.78,other,34,D1_Finance,senior
+I just saw game! It was funny.,Eve,2025-09-25 17:51:36,gaming,0.95,game,30,D3_Legal,Level 1
+I just shared game! It was weird.,Eve,2025-09-25 17:51:41,gaming,0.04,game,33,D4_HR,senior
+I just saw a trick! It was amazing.,Bob,2025-09-25 17:51:46,other,0.05,other,35,D2_Mfg,lead
+I just tried an app! It was weird.,Eve,2025-09-25 17:51:51,other,0.3,other,34,D6_Logistics,senior
+I just found a trick! It was funny.,Eve,2025-09-25 17:51:56,other,0.12,other,35,D4_HR,Level 2
+I just shared JavaScript! It was exciting.,Charlie,2025-09-25 17:52:02,tech,0.42,JavaScript,42,D6_Logistics,Level 1
+I just shared recipe! It was funny.,Charlie,2025-09-25 17:52:07,food,0.57,recipe,35,D2_Mfg,Level 1
+I just loved a story! It was amazing.,Bob,2025-09-25 17:52:12,other,0.18,other,37,D6_Logistics,lead
+I just tried a story! It was boring.,Alice,2025-09-25 17:52:17,other,0.3,other,36,D4_HR,senior
+I just found travel! It was funny.,Bob,2025-09-25 17:52:22,travel,0.95,travel,34,D3_Legal,Level 1
+I just loved an app! It was weird.,Bob,2025-09-25 17:52:27,other,0.92,other,34,D3_Legal,Level 1
+I just shared a story! It was amazing.,Eve,2025-09-25 17:52:32,other,0.0,other,38,D5_Operations,associate
+I just shared Python! It was amazing.,Eve,2025-09-25 17:52:37,tech,0.91,Python,37,D2_Mfg,Level 2
+I just found Python! It was amazing.,Charlie,2025-09-25 17:52:42,tech,0.2,Python,36,D2_Mfg,lead
+I just saw a movie! It was weird.,Bob,2025-09-25 17:52:47,entertainment,0.11,movie,33,D1_Finance,associate
+I just loved travel! It was weird.,Charlie,2025-09-25 17:52:52,travel,0.16,travel,34,D2_Mfg,Level 1
+I just tried game! It was weird.,Eve,2025-09-25 17:52:57,gaming,0.91,game,32,D5_Operations,associate
+I just tried a movie! It was boring.,Alice,2025-09-25 17:53:02,entertainment,0.33,movie,36,D6_Logistics,associate
+I just tried an app! It was amazing.,Bob,2025-09-25 17:53:07,other,0.03,other,36,D1_Finance,Level 2
+I just tried travel! It was funny.,Charlie,2025-09-25 17:53:12,travel,0.43,travel,34,D2_Mfg,Level 1
+I just saw an app! It was weird.,Charlie,2025-09-25 17:53:18,other,0.14,other,32,D2_Mfg,associate
+I just tried an app! It was funny.,Bob,2025-09-25 17:53:23,other,0.29,other,34,D5_Operations,Level 2
+I just loved JavaScript! It was funny.,Charlie,2025-09-25 17:53:28,tech,0.5,JavaScript,38,D5_Operations,Hourly
+I just saw a story! It was amazing.,Charlie,2025-09-25 17:53:33,other,0.15,other,35,D5_Operations,Hourly
+I just found game! It was weird.,Charlie,2025-09-25 17:53:38,gaming,0.17,game,32,D6_Logistics,lead
+I just found a story! It was funny.,Eve,2025-09-25 17:53:43,other,0.69,other,35,D5_Operations,associate
+I just shared travel! It was boring.,Bob,2025-09-25 17:53:48,travel,0.01,travel,36,D1_Finance,Hourly
+I just shared a trick! It was funny.,Bob,2025-09-25 17:53:53,other,0.27,other,36,D3_Legal,Hourly
+I just found JavaScript! It was funny.,Bob,2025-09-25 17:53:58,tech,0.59,JavaScript,38,D1_Finance,Level 1
+I just found travel! It was funny.,Charlie,2025-09-25 17:54:03,travel,0.83,travel,34,D1_Finance,Level 2
+I just found JavaScript! It was weird.,Alice,2025-09-25 17:54:08,tech,0.58,JavaScript,38,D5_Operations,associate
+I just saw an app! It was amazing.,Bob,2025-09-25 17:54:13,other,0.38,other,34,D2_Mfg,senior
+I just saw a trick! It was amazing.,Charlie,2025-09-25 17:54:18,other,0.26,other,35,D5_Operations,lead
+I just found Python! It was exciting.,Eve,2025-09-25 17:54:24,tech,0.23,Python,37,D5_Operations,associate
+I just found a meme! It was boring.,Alice,2025-09-25 17:54:29,humor,0.37,meme,35,D4_HR,Level 1
+I just found a trick! It was boring.,Charlie,2025-09-25 17:54:34,other,0.69,other,36,D2_Mfg,Hourly
+I just loved recipe! It was amazing.,Eve,2025-09-25 17:54:39,food,0.21,recipe,36,D4_HR,lead
