@@ -63,7 +63,7 @@ def assess_sentiment(text: str) -> float:
 #####################################
 # Message Generator
 #####################################
-
+'''
 def generate_messages():
     """Yield JSON-able dicts forever."""
     ADJECTIVES = ["amazing", "funny", "boring", "exciting", "weird"]
@@ -112,7 +112,7 @@ def generate_messages():
             "department_ID": department_ID,
             "job_classification": job_classification,
         }
-
+'''
 def generate_messages_from_csv(csv_path: pathlib.Path):
     """Yield JSON-able dicts from a coffee shop CSV file."""
     with open(csv_path, newline='', encoding="utf-8") as f:
@@ -241,25 +241,25 @@ def main() -> None:
             csv_path = pathlib.Path("data/survey_messages.csv")
             sqlite_emitter.append_to_csv(message, csv_path)# --- CSV ---
     '''
-        csv_path = pathlib.Path(r"C:\Projects\custom_pipeline_fintel\data\coffee.csv")
+            csv_path = pathlib.Path("data\coffee.csv")
             for message in generate_messages_from_csv(csv_path):
-        logger.info(message)
+            logger.info(message)
 
-        time.sleep(interval_secs)
+            time.sleep(interval_secs)
 
-    except KeyboardInterrupt:
-        logger.warning("Producer interrupted by user.")
-    except Exception as e:
-        logger.error(f"ERROR: Unexpected error: {e}")
-    finally:
-        if producer:
-            try:
-                producer.flush(timeout=5)
-                producer.close()
-                logger.info("Kafka producer closed.")
-            except Exception:
-                pass
-        logger.info("Producer shutting down.")
+        except KeyboardInterrupt:
+            logger.warning("Producer interrupted by user.")
+        except Exception as e:
+            logger.error(f"ERROR: Unexpected error: {e}")
+        finally:
+            if producer:
+                try:
+                    producer.flush(timeout=5)
+                    producer.close()
+                    logger.info("Kafka producer closed.")
+                except Exception:
+                    pass
+            logger.info("Producer shutting down.")
 
 
 #####################################
