@@ -37,6 +37,7 @@ import sys
 import time
 from datetime import datetime
 from typing import Mapping, Any
+import csv
 
 # external
 from kafka import KafkaProducer  # kafka-python-ng
@@ -112,6 +113,25 @@ def generate_messages():
             "job_classification": job_classification,
         }
 
+def generate_messages_from_csv(csv_path: pathlib.Path):
+    """Yield JSON-able dicts from a coffee shop CSV file."""
+    with open(csv_path, newline='', encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # Add a real-time timestamp for when this event is emitted
+            row["event_timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+            # Convert numeric fields
+            try:
+                row["hour_of_day"] = int(row["hour_of_day"])
+            except:
+                pass
+            try:
+                row["money"] = float(row["money"])
+            except:
+                pass
+
+            yield row
 
 
 #####################################
@@ -217,10 +237,15 @@ def main() -> None:
             # Uncomment to enable DuckDB sink:
             emit_to_duckdb(message, db_path=duckdb_path)
 
+'''
             csv_path = pathlib.Path("data/survey_messages.csv")
             sqlite_emitter.append_to_csv(message, csv_path)# --- CSV ---
-    
-            time.sleep(interval_secs)
+    '''
+        csv_path = pathlib.Path(r"C:\Projects\custom_pipeline_fintel\data\coffee.csv")
+            for message in generate_messages_from_csv(csv_path):
+        logger.info(message)
+
+        time.sleep(interval_secs)
 
     except KeyboardInterrupt:
         logger.warning("Producer interrupted by user.")

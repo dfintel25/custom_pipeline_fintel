@@ -25,8 +25,6 @@ Example JSON message
 import os
 import pathlib
 import sqlite3
-import pandas as pd
-import matplotlib.pyplot as plt
 
 # import from local modules
 import utils.utils_config as config
@@ -58,23 +56,20 @@ def init_db(db_path: pathlib.Path):
 
             cursor.execute("DROP TABLE IF EXISTS streamed_messages;")
 
-            cursor.execute("""
-        CREATE TABLE IF NOT EXISTS coffee_sales (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            hour_of_day INTEGER,
-            cash_type TEXT,
-            money REAL,
-            coffee_name TEXT,
-            time_of_day TEXT,
-            weekday TEXT,
-            month_name TEXT,
-            weekdaysort INTEGER,
-            monthsort INTEGER,
-            date TEXT,
-            time TEXT,
-            event_timestamp TEXT
-        )
-    """)
+            cursor.execute(
+                """
+                CREATE TABLE IF NOT EXISTS streamed_messages (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    message TEXT,
+                    author TEXT,
+                    timestamp TEXT,
+                    category TEXT,
+                    sentiment REAL,
+                    keyword_mentioned TEXT,
+                    message_length INTEGER
+                )
+            """
+            )
             conn.commit()
         logger.info(f"SUCCESS: Database initialized and table ready at {db_path}.")
     except Exception as e:
@@ -102,25 +97,22 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
     try:
         with sqlite3.connect(STR_PATH) as conn:
             cursor = conn.cursor()
-            cursor.execute("""
-        INSERT INTO coffee_sales
-        (hour_of_day, cash_type, money, coffee_name, time_of_day, weekday, month_name,
-         weekdaysort, monthsort, date, time, event_timestamp)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """, (
-        message["hour_of_day"],
-        message["cash_type"],
-        message["money"],
-        message["coffee_name"],
-        message["time_of_day"],
-        message["weekday"],
-        message["month_name"],
-        message["weekdaysort"],
-        message["monthsort"],
-        message["date"],
-        message["time"],
-        message["event_timestamp"],
-    ))
+            cursor.execute(
+                """
+                INSERT INTO streamed_messages (
+                    message, author, timestamp, category, sentiment, keyword_mentioned, message_length
+                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+                (
+                    message["message"],
+                    message["author"],
+                    message["timestamp"],
+                    message["category"],
+                    message["sentiment"],
+                    message["keyword_mentioned"],
+                    message["message_length"],
+                ),
+            )
             conn.commit()
         logger.info("Inserted one message into the database.")
     except Exception as e:
@@ -150,29 +142,6 @@ def delete_message(message_id: int, db_path: pathlib.Path) -> None:
     except Exception as e:
         logger.error(f"ERROR: Failed to delete message from the database: {e}")
 
-def generate_reports(db_path: pathlib.Path):
-    conn = sqlite3.connect(db_path)
-
-    # Revenue by coffee type
-    df = pd.read_sql("SELECT coffee_name, SUM(money) as revenue FROM coffee_sales GROUP BY coffee_name", conn)
-    df.plot(kind="bar", x="coffee_name", y="revenue", legend=False, title="Revenue by Coffee Type")
-    plt.tight_layout()
-    plt.show()
-
-    # Sales trend by hour
-    df2 = pd.read_sql("SELECT hour_of_day, SUM(money) as revenue FROM coffee_sales GROUP BY hour_of_day", conn)
-    df2.plot(kind="line", x="hour_of_day", y="revenue", marker="o", title="Hourly Revenue Trend")
-    plt.tight_layout()
-    plt.show()
-
-    # Payment method breakdown
-    df3 = pd.read_sql("SELECT cash_type, SUM(money) as revenue FROM coffee_sales GROUP BY cash_type", conn)
-    df3.plot(kind="pie", y="revenue", labels=df3["cash_type"], autopct="%.1f%%", legend=False, title="Payment Method Split")
-    plt.ylabel("")
-    plt.tight_layout()
-    plt.show()
-
-    conn.close()
 
 #####################################
 # Define main() function for testing

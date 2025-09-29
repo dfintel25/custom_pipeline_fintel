@@ -49,7 +49,7 @@ from consumers.sqlite_consumer_case import init_db, insert_message
 # Function to process a single message
 # #####################################
 
-
+'''
 def process_message(message: dict) -> None:
     """
     Process and transform a single JSON message.
@@ -75,8 +75,34 @@ def process_message(message: dict) -> None:
     except Exception as e:
         logger.error(f"Error processing message: {e}")
         return None
-
-
+'''
+def process_message(message: dict) -> dict | None:
+    """
+    Process and transform a single JSON message from coffee POS data.
+    Converts message fields to appropriate data types.
+    """
+    logger.info("Called process_message() with:")
+    logger.info(f"   {message=}")
+    try:
+        processed_message = {
+            "hour_of_day": int(message.get("hour_of_day", 0)),
+            "cash_type": message.get("cash_type"),
+            "money": float(message.get("money", 0.0)),
+            "coffee_name": message.get("coffee_name"),
+            "time_of_day": message.get("Time_of_Day"),
+            "weekday": message.get("Weekday"),
+            "month_name": message.get("Month_name"),
+            "weekdaysort": int(message.get("Weekdaysort", 0)),
+            "monthsort": int(message.get("Monthsort", 0)),
+            "date": message.get("Date"),
+            "time": message.get("Time"),
+            "event_timestamp": message.get("event_timestamp"),
+        }
+        logger.info(f"Processed message: {processed_message}")
+        return processed_message
+    except Exception as e:
+        logger.error(f"Error processing message: {e}")
+        return None
 #####################################
 # Consume Messages from Kafka Topic
 #####################################
@@ -143,6 +169,21 @@ def consume_messages_from_kafka(
         sys.exit(13)
 
     try:
+        counter = 0
+    for message in consumer:
+        processed_message = process_message(message.value)
+        if processed_message:
+            insert_message(processed_message, sql_path)
+            counter += 1
+
+            # Every 20 messages, update reports
+            if counter % 20 == 0:
+                try:
+                    from consumers.sqlite_consumer_case import generate_reports
+                    generate_reports(sql_path)
+            except Exception as e:
+                logger.error(f"Reporting failed: {e}")
+        '''
         # consumer is a KafkaConsumer
         # message is a kafka.consumer.fetcher.ConsumerRecord
         # message.value is a Python dictionary
@@ -154,7 +195,7 @@ def consume_messages_from_kafka(
     except Exception as e:
         logger.error(f"ERROR: Could not consume messages from Kafka: {e}")
         raise
-
+'''
 
 #####################################
 # Define Main Function
