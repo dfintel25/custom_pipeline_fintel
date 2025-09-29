@@ -16,10 +16,10 @@ We'll leverage a publicly available test dataset from [Kaggle](https://www.kaggl
 Link: https://www.kaggle.com/datasets/jawad3664/coffee-shop/data
 
 ### Use-case:
-
+This project will emulate a business solution where a coffee shop's point of sale system's data outputs are fed into an automated streaming system that ingests sources data, produces and publishes topics of data, consumes and transforms the messages, and generates output files and visualizations. 
 
 ### Visualization:
-
+We will explore various charts in this project but may focus (1) a line chart that counts the sales per day and the rate of change or prediction, and (2) a bar chart that trends the category of drink to the time of day. 
 
 ### Preliminary Setup Steps
 ### 1. Initialize
