@@ -311,6 +311,7 @@ To run the Consumer:
 ```shell
 .venv\Scripts\Activate
 py -m consumers.consumer_fintel
+py -m consumers.sqlite_consumer_case
 ```
 ---
 
