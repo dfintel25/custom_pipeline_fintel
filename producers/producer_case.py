@@ -215,9 +215,12 @@ def main() -> None:
         logger.warning(f"WARNING: Kafka setup failed: {e}")
         producer = None
 
-    # STEP 4. Emit loop — CALL ANY/ALL EMITTERS YOU WANT
+     # STEP 4. Emit loop — CALL ANY/ALL EMITTERS YOU WANT
     try:
-        for message in generate_messages():
+        # use your coffee CSV file
+        csv_path = pathlib.Path(r"C:\Projects\custom_pipeline_fintel\data\coffee.csv")
+
+        for message in generate_messages_from_csv(csv_path):
             logger.info(message)
 
             # --- File (JSONL) ---
@@ -230,37 +233,26 @@ def main() -> None:
                 logger.info("Flushed Kafka message")
 
             # --- SQLite ---
-            # Uncomment to enable SQLite sink:
             emit_to_sqlite(message, db_path=sqlite_path)
 
             # --- DuckDB ---
-            # Uncomment to enable DuckDB sink:
             emit_to_duckdb(message, db_path=duckdb_path)
-
-'''
-            csv_path = pathlib.Path("data/survey_messages.csv")
-            sqlite_emitter.append_to_csv(message, csv_path)# --- CSV ---
-    '''
-            csv_path = pathlib.Path("data\coffee.csv")
-            for message in generate_messages_from_csv(csv_path):
-            logger.info(message)
 
             time.sleep(interval_secs)
 
-        except KeyboardInterrupt:
-            logger.warning("Producer interrupted by user.")
-        except Exception as e:
-            logger.error(f"ERROR: Unexpected error: {e}")
-        finally:
-            if producer:
-                try:
-                    producer.flush(timeout=5)
-                    producer.close()
-                    logger.info("Kafka producer closed.")
-                except Exception:
-                    pass
-            logger.info("Producer shutting down.")
-
+    except KeyboardInterrupt:
+        logger.warning("Producer interrupted by user.")
+    except Exception as e:
+        logger.error(f"ERROR: Unexpected error: {e}")
+    finally:
+        if producer:
+            try:
+                producer.flush(timeout=5)
+                producer.close()
+                logger.info("Kafka producer closed.")
+            except Exception:
+                pass
+        logger.info("Producer shutting down.")
 
 #####################################
 # Conditional Execution
